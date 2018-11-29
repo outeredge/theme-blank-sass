@@ -6,6 +6,10 @@ This is a fork of https://github.com/SnowdogApps/magento2-theme-blank-sass, whic
 
 ## Changelog
 
+**3.0 - Magento 2.3**
+
+* Make it work with Magento 2.3
+
 **2.0 - First forked version**
 
 * Remove lib-css mixin and usage of it. Mixin was puting property only if value is not false. By default SASS doesn't include properties with `null` value. Therefore it required to change some variables from `false` to `null`
@@ -15,7 +19,8 @@ This is a fork of https://github.com/SnowdogApps/magento2-theme-blank-sass, whic
 Not packaged yet
 
 ## Compatibility
-* Magento 2.2: v2.0.0 or later
+* Magento 2.3: v3.0.0 or later
+* Magento 2.2: v2.0.0 to v3.0.0
 
 ## Bug reports and contribution rules
 - Before reporting an issue, check if you can reproduce it on the clean Magento instance with LESS version of the Blank theme. If that's true, submit issue to the Magento 2 repository, not here
