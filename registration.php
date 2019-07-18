@@ -2,6 +2,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::THEME,
-    'frontend/Snowdog/blank',
+    'frontend/OuterEdge/blank',
     __DIR__
 );

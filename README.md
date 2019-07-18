@@ -1,7 +1,7 @@
 [![Travis branch](https://img.shields.io/travis/SnowdogApps/magento2-theme-blank-sass/master.svg)](https://travis-ci.org/SnowdogApps/magento2-theme-blank-sass) [![Packagist](https://img.shields.io/packagist/v/snowdog/theme-blank-sass.svg)](https://packagist.org/packages/snowdog/theme-blank-sass) [![Packagist](https://img.shields.io/packagist/dt/snowdog/theme-blank-sass.svg)](https://packagist.org/packages/snowdog/theme-blank-sass)
 # Magento 2 - Blank theme - SASS version
 
-SASS based version of Magento 2 Blank theme, which aims to be as close to the core code as possible.
+SASS based version of Magento 2 Blank theme, ~~which aims to be as close to the core code as possible.~~ Without some of the Magento... weirdness.
 
 ## Installation
 1. Add this to your project dependecies list `composer require snowdog/theme-blank-sass`
