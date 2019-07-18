@@ -1,11 +1,9 @@
 {
     "name": "outeredge/theme-blank-sass",
-    "replace": {
-        "outeredge/theme-blank-sass": "self.version"
-    },
     "description": "SASS based version of Magento 2 Blank theme",
     "license": "MIT",
     "type": "magento2-theme",
+    "version": "1.2.3",
     "require": {
         "magento/framework": "^101.0.0|^102.0.0"
     },
