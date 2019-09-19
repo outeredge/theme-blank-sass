@@ -70,7 +70,7 @@
     margin: $_button-margin;
     padding: $_button-padding;
     width: $_button-width;
-    text-transform: $_button-text-transform,
+    text-transform: $_button-text-transform;
     @include lib-font-size($_button-font-size);
     @include lib-line-height($_button-line-height);
     box-sizing: border-box;
