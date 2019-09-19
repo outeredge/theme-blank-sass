@@ -10,6 +10,7 @@
     $_button-font-family                 : $button__font-family,
     $_button-font-size                   : $button__font-size,
     $_button-font-weight                 : $button__font-weight,
+    $_button-text-transform              : $button__text-transform,
     $_button-cursor                      : $button__cursor,
     $_button-display                     : $button__display,
     $_button-disabled-opacity            : $button__disabled__opacity,
@@ -69,6 +70,7 @@
     margin: $_button-margin;
     padding: $_button-padding;
     width: $_button-width;
+    text-transform: $_button-text-transform,
     @include lib-font-size($_button-font-size);
     @include lib-line-height($_button-line-height);
     box-sizing: border-box;

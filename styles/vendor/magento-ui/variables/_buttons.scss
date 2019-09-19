@@ -10,6 +10,7 @@
 $button__font-family                          : $font-family__base !default;
 $button__font-size                            : $font-size__base !default;
 $button__font-weight                          : $font-weight__bold !default;
+$button__text-transform                       : none !default;
 $button__line-height                          : $font-size__base + 2 !default;
 $button__margin                               : 0 !default;
 $button__padding                              : 7px 15px !default; // is set up to null when buttons don't depend on side paddings or have fixed width
