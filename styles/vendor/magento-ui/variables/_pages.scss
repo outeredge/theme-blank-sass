@@ -19,6 +19,7 @@ $pager-actions__padding                      : 0 !default;
 $pager-current__font-weight                  : $font-weight__bold !default;
 $pager-current__color                        : $primary__color !default;
 $pager-current__border                       : null !default;
+$pager-current__border__radius               : null !default;
 $pager-current__background                   : null !default;
 $pager-current__gradient                     : null !default;
 $pager-current__gradient-direction           : null !default;
@@ -32,6 +33,7 @@ $pager__gradient-direction                   : null !default;
 //  Pager link default
 $pager__color                                : $link__color !default;
 $pager__border                               : null !default;
+$pager__border__radius                       : null !default;
 $pager__text-decoration                      : none !default;
 $pager__background                           : null !default;
 $pager__gradient-color-start                 : null !default;
