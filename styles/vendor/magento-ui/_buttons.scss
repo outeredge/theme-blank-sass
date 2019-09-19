@@ -20,6 +20,7 @@
     $_button-color                       : $button__color,
     $_button-background                  : $button__background,
     $_button-border                      : $button__border,
+    $_button-border-radius               : $button__border__radius,
 
     $_button-color-hover                 : $button__hover__color,
     $_button-background-hover            : $button__hover__background,
@@ -59,6 +60,7 @@
         $_button-gradient
     );
     border: $_button-border;
+    border-radius: $_button-border-radius;
     color: $_button-color;
     cursor: $_button-cursor;
     display: $_button-display;
