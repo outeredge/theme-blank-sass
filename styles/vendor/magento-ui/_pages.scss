@@ -22,6 +22,7 @@
     $_pager-current-color                       : $pager-current__color,
     $_pager-current-background                  : $pager-current__background,
     $_pager-current-border                      : $pager-current__border,
+    $_pager-current-border-radius               : $pager-current__border__radius,
     $_pager-current-gradient                    : $pager-current__gradient,
     $_pager-current-gradient-direction          : $pager-current__gradient-direction,
     $_pager-current-gradient-color-start        : $pager-current__gradient-color-start,
@@ -41,6 +42,7 @@
 
     //  Page item - border
     $_pager-border                              : $pager__border,
+    $_pager-border-radius                       : $pager__border__radius,
     $_pager-border-visited                      : $pager__visited__border,
     $_pager-border-hover                        : $pager__hover__border,
     $_pager-border-active                       : $pager__active__border,
@@ -152,6 +154,7 @@
             $_pager-gradient
         );
         border: $_pager-border;
+        border-radius: $_pager-border-radius;
         color: $_pager-color;
         display: $_pager-item-display;
         padding: $_pager-item-padding;
@@ -204,6 +207,7 @@
             $_pager-current-gradient
         );
         border: $_pager-current-border;
+        border-radius: $_pager-current-border-radius;
         @include _lib-pager-inline-block-spaces-item(
             $_pager-reset-spaces,
             $_pager-item-display,

@@ -10,6 +10,7 @@
     $_button-font-family                 : $button__font-family,
     $_button-font-size                   : $button__font-size,
     $_button-font-weight                 : $button__font-weight,
+    $_button-text-transform              : $button__text-transform,
     $_button-cursor                      : $button__cursor,
     $_button-display                     : $button__display,
     $_button-disabled-opacity            : $button__disabled__opacity,
@@ -20,6 +21,7 @@
     $_button-color                       : $button__color,
     $_button-background                  : $button__background,
     $_button-border                      : $button__border,
+    $_button-border-radius               : $button__border__radius,
 
     $_button-color-hover                 : $button__hover__color,
     $_button-background-hover            : $button__hover__background,
@@ -59,6 +61,7 @@
         $_button-gradient
     );
     border: $_button-border;
+    border-radius: $_button-border-radius;
     color: $_button-color;
     cursor: $_button-cursor;
     display: $_button-display;
@@ -67,6 +70,7 @@
     margin: $_button-margin;
     padding: $_button-padding;
     width: $_button-width;
+    text-transform: $_button-text-transform;
     @include lib-font-size($_button-font-size);
     @include lib-line-height($_button-line-height);
     box-sizing: border-box;
