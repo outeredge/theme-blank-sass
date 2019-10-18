@@ -1,7 +1,7 @@
 # Changelog
 
 ## [1.3.4] - 2019-10-17
-- added border radius reset to `lib-button-reset()`
+- added border radius and text transform to `lib-button-reset()`
 
 ## [1.3.3] - 2019-09-19
 - added border radius variable to button mixin
