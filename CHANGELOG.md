@@ -1,10 +1,13 @@
 # Changelog
 
-## [1.3.x] - 2019-09-19
+## [1.3.4] - 2019-10-17
+- added border radius reset to `lib-button-reset()`
+
+## [1.3.3] - 2019-09-19
 - added border radius variable to button mixin
 - added text-transform variable to button mixin
 - added border radius to pager mixin
-- added optional background icon and colour choise for ratings summary stars (as we needed to have outlines of the stars for unselected state) 
+- added optional background icon and colour choise for ratings summary stars (as we needed to have outlines of the stars for unselected state)
 
 
 ## [1.3.2] - 2019-08-07
