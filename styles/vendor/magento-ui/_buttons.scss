@@ -241,7 +241,6 @@
 @mixin lib-button-reset() {
     background-image: none; // Reset unusual Firefox-on-Android default style
     background: none;
-    -moz-box-sizing: content-box; // Hack: fix Firefox button line-height problem
     border: 0;
     box-shadow: none;
     line-height: inherit;
@@ -250,6 +249,7 @@
     text-decoration: none;
     text-shadow: none;
     font-weight: $font-weight__regular;
+    border-radius: unset;
 
     &:focus,
     &:active {
