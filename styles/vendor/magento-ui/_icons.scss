@@ -18,7 +18,7 @@
     $_icon-font-vertical-align : $icon-font__vertical-align,
     $_icon-font-position       : $icon-font__position,
     $_icon-font-text-hide      : $icon-font__text-hide,
-    $_icon-font-display        : $icon-font__display
+    $_icon-font-display        : inline-block
 ) {
     @include _lib-icon-text-hide($_icon-font-text-hide);
     display: $_icon-font-display;
@@ -120,7 +120,7 @@
     $_icon-image-position-y     : $icon-image__position-y,
     $_icon-image-position       : $icon__position,
     $_icon-image-text-hide      : $icon__text-hide,
-    $_icon-image-display        : $icon-image__display
+    $_icon-image-display        : inline-block
 ) {
     display: $_icon-image-display ;
     @include _lib-icon-text-hide($_icon-image-text-hide);
@@ -254,7 +254,8 @@
     $_icon-image-margin,
     $_icon-image-vertical-align,
     $_icon-image-position-x,
-    $_icon-image-position-y
+    $_icon-image-position-y,
+    $_icon-image-display: inline-block
 ) {
     @include _lib-icon-image-url($_icon-image);
     background-position-x: $_icon-image-position-x;
@@ -268,7 +269,7 @@
     );
     background-repeat: no-repeat;
     content: '';
-    display: inline-block;
+    display: $_icon-image-display;
 }
 
 @mixin _lib-icon-image-position(
@@ -302,7 +303,7 @@
     $_icon-font-color,
     $_icon-font-margin,
     $_icon-font-vertical-align,
-    $_icon-font-display
+    $_icon-font-display: inline-block
 ) {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
