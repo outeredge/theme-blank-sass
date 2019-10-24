@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.3.4] - 2019-10-24
+- icon font and image display variable
+
 ## [1.3.4] - 2019-10-17
 - added border radius and text transform to `lib-button-reset()`
 

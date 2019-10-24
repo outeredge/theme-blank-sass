@@ -119,9 +119,10 @@
     $_icon-image-position-x     : $icon-image__position-x,
     $_icon-image-position-y     : $icon-image__position-y,
     $_icon-image-position       : $icon__position,
-    $_icon-image-text-hide      : $icon__text-hide
+    $_icon-image-text-hide      : $icon__text-hide,
+    $_icon-image-display        : $icon-image__display
 ) {
-    display: inline-block;
+    display: $_icon-image-display ;
     @include _lib-icon-text-hide($_icon-image-text-hide);
 
     @if $_icon-image-position == before {
@@ -300,7 +301,8 @@
     $_icon-font-line-height,
     $_icon-font-color,
     $_icon-font-margin,
-    $_icon-font-vertical-align
+    $_icon-font-vertical-align,
+    $_icon-font-display
 ) {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -310,7 +312,7 @@
     font-family: $_icon-font;
     margin: $_icon-font-margin;
     vertical-align: $_icon-font-vertical-align;
-    display: inline-block;
+    display: $_icon-font-display;
     font-weight: normal;
     overflow: hidden;
     speak: none;
