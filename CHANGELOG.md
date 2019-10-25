@@ -1,6 +1,9 @@
 # Changelog
 
-## [1.3.4] - 2019-10-24
+## [1.3.8] - 2019-10-25
+- remove icon font and image display variable
+
+## [1.3.5] - 2019-10-24
 - icon font and image display variable
 
 ## [1.3.4] - 2019-10-17
