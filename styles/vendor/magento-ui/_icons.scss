@@ -17,10 +17,12 @@
     $_icon-font-margin         : $icon-font__margin,
     $_icon-font-vertical-align : $icon-font__vertical-align,
     $_icon-font-position       : $icon-font__position,
-    $_icon-font-text-hide      : $icon-font__text-hide
+    $_icon-font-text-hide      : $icon-font__text-hide,
+    $_icon-font-display        : $icon-font__display
+
 ) {
     @include _lib-icon-text-hide($_icon-font-text-hide);
-    display: inline-block;
+    display: $_icon-font-display;
     text-decoration: none;
 
     @if $_icon-font-position == before {
