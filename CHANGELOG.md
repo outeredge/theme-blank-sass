@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.10] - 2019-10-28
+- added patch from https://github.com/SnowdogApps/magento2-theme-blank-sass/pull/224 to show tooltips correctly
+
+
 ## [1.3.8] - 2019-10-25
 - remove icon font and image display variable
 
