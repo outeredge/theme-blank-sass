@@ -44,6 +44,27 @@
         margin-top: calc(-#{$dynamic-bottom-crop}em + #{$bottom-adjustment});
     }
 }
+
+// text crop reset (as it does mess with button icons if you don't reset it)
+@mixin text-crop-reset {
+    &::before,
+    &::after {
+        content: unset;
+        display: unset;
+        height: unset;
+        width: unset;
+    }
+
+    &::before {
+        margin-bottom: unset;
+    }
+
+    &::after {
+        margin-top: unset;
+    }
+}
+
+
 // Mixin generated at: http://text-crop.eightshapes.com/?
 
 /* Usage Examples
