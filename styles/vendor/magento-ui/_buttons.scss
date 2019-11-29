@@ -270,6 +270,8 @@
         pointer-events: none; // Disabling of clicks
         opacity: $button__disabled__opacity;
     }
+
+    @include text-crop-reset();
 }
 
 //
