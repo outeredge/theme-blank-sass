@@ -19,7 +19,8 @@ $button__width                                : null !default; // is set up to n
 //  Display settings
 $button__display                              : inline-block !default;
 $button__cursor                               : pointer !default;
-$button__border__radius                       : 3px !default;
+$button__border-radius                        : 3px !default;
+$button__border__radius                       : $button__border-radius !default; // in case previous sites still ref the old name
 
 $button__disabled__opacity                    : 0.5 !default;
 
