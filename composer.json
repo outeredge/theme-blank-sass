@@ -3,7 +3,6 @@
     "description": "SASS based version of Magento 2 Blank theme",
     "license": "MIT",
     "type": "magento2-theme",
-    "version": "1.2.6",
     "autoload": {
         "files": [
             "registration.php"
